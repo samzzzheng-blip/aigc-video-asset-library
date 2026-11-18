@@ -1,0 +1,23 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Generated dependencies and builds
+node_modules/
+dist/
+target/
+__pycache__/
+.venv/
+
+# Private media and local database
+uploads/
+storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor and temporary files
+.idea/
+~$*
+*.log
